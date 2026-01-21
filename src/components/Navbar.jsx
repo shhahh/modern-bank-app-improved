@@ -2,13 +2,16 @@ import { useState } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import styles from "../style";
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+
+     <nav className="w-full fixed top-0 left-0 right-0 z-[100] bg-primary/60 backdrop-blur-md border-b border-white/10">
+       <div className={`${styles.boxWidth} mx-auto flex py-6 justify-between items-center px-6 sm:px-16`}>
       <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
@@ -52,6 +55,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+      </div>
       </div>
     </nav>
   );
