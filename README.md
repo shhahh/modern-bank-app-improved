@@ -1,12 +1,16 @@
-# HooBank - Modern UI/UX website using React.js & Tailwind CSS
+# 🏦 Modern Bank App - UI/UX Refined
 
-![HooBank](https://i.ibb.co/BK1Hn0x/Screenshot-2022-08-08-at-4-05-48-PM.png)
+This is an improved version of a Modern Bank Landing Page. I have optimized the layout for better responsiveness and added new components to enhance the user experience.
 
-### [🌟 Become a top 1% Next.js 13 developer in only one course](https://jsmastery.pro/next13)
-### [🚀 Land your dream programming job in 6 months](https://jsmastery.pro/masterclass)
+## 🛠 What I Improved & Added:
 
-### Showcase your dev skills with practical experience and land the coding career of your dreams
-💻 JS Mastery Pro - https://jsmastery.pro/youtube
-✅ A special YOUTUBE discount code is automatically applied!
+- **✅ New Contact Section:** Designed and integrated a modern contact form from scratch, matching the project's premium theme.
+- **✅ Sticky Navigation:** Converted the static navbar into a fixed, translucent (backdrop-blur) header for better accessibility.
+- **✅ Desktop Layout Fix:** Optimized the Feedback/Testimonials section. Fixed an issue where the layout would break on 13-inch laptop screens at 100% zoom.
+- **✅ UI Refinements:** Improved spacing in the Hero section and adjusted button sizes for a more balanced look.
+- **✅ Smooth Scrolling:** Implemented seamless navigation between sections.
 
-📙 Get the Ultimate Frontend & Backend Development Roadmaps, a Complete JavaScript Cheatsheet, Portfolio Tips, and more - https://www.jsmastery.pro/links
+## 🚀 Tech Stack
+- **React.js** (Vite)
+- **Tailwind CSS**
+- **JavaScript (ES6+)**
