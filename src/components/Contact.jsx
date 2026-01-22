@@ -28,7 +28,7 @@ const Contact = () => {
               <input
                 className="appearance-none block w-full bg-primary text-white border border-dimWhite rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:border-secondary"
                 type="text"
-                placeholder="John Doe"
+                placeholder="Alam shah"
               />
             </div>
             {/* Email Field */}
@@ -39,7 +39,7 @@ const Contact = () => {
               <input
                 className="appearance-none block w-full bg-primary text-white border border-dimWhite rounded py-3 px-4 leading-tight focus:outline-none focus:border-secondary"
                 type="email"
-                placeholder="john@example.com"
+                placeholder="shah@example.com"
               />
             </div>
           </div>
@@ -59,9 +59,7 @@ const Contact = () => {
           <div className="flex justify-start">
             <button
               type="submit"
-              className="py-4 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none hover:scale-105 transition-transform"
-            >
-              Send Message
+              className="py-3 px-4 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none hover:scale-100 transition-transform"> Send Message
             </button>
           </div>
         </form>
@@ -70,4 +68,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Contact;   
